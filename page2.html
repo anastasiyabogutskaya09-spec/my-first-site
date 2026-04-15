@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>Друга сторінка - Галерея</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .collection {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 20px 0;
+        }
+        .collection-item-outer {
+            width: 30%;
+            min-width: 280px;
+            border: 2px dashed #2c3e50; 
+            padding: 15px;
+            border-radius: 12px;
+            background-color: #f9f9f9;
+        }
+        .collection-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border: 4px double #34495e; 
+            border-radius: 5px;
+        }
+        .collection-text h3 {
+            color: #e67e22;
+            margin-top: 15px;
+        }
+        .collection-text p {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>  
+
+<header class="header">
+    <div class="container">
+        <h1>Виставка: Продовження</h1>
+        <h2><small>Частина 2 | Виконала Богуцька Анастасія</small></h2>
+    </div>
+</header>  
+
+<nav class="navi">
+    <div class="container">
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="page2.html">Сторінка 2</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <div class="container">
+        <h2 class="collection-title">Додаткова експозиція <small>ще 3 чудеса</small></h2>
+        
+        <div class="collection">
+            <div class="collection-item-outer">
+                <div class="collection-item">
+                    <img src="004.jpg" alt="ОПИС ФОТО 4">
+                    <div class="collection-text">
+                        <h3>Херсонес Таврійський (заповідник)</h3>
+                        <p>ТХерсонеський історико-археологічний музей-заповідник у Севастополі — музей, відкритий 1892 на базі археологічних знахідок з розкопів старогрецького міста Херсонесу, розташований у колишньому монастирі на території розкопів; спершу мав назву «склад місцевих старожитностей». Тут 20 років працював дослідник і археолог Карл Казимирович Косцюшко-Валюжинич (1847—1907), перший директор музейного закладу в добу царату. З 1980 року існує під сучасною назвою.</p>
+                        <button>Читати далі</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collection-item-outer">
+                <div class="collection-item">
+                    <img src="005.jpg" alt="ОПИС ФОТО 5">
+                    <div class="collection-text">
+                        <h3>Хортиця</h3>
+                        <p>Хо́ртиця — найбільший острів на Дніпрі, розташований поблизу Запоріжжя, нижче Дніпровської ГЕС. Унікальний природний та історичний комплекс. Хортиця є одним із Семи чудес України.</p>
+                        <button>Читати далі</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collection-item-outer">
+                <div class="collection-item">
+                    <img src="006.jpg" alt="ОПИС ФОТО 6">
+                    <div class="collection-text">
+                        <h3>Хотинська фортеця</h3>
+                        <p>Хоти́нська фортеця — середньовічна укріплена фортифікаційна споруда в Хотині (Чернівецька область, Україна), збудована русо-влахами за господарювання Мушатів у Молдавському князівстві на межі XIII—XVIII століть на місці руського городища (Х—ХІІІ).</p>
+                        <button>Читати далі</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>Фотовиставка — 2021-2026</p>
+    </div>
+</footer>
+
+</body>
+</html>

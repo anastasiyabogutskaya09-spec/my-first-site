@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>Перша сторінка сайту - Виставка</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Додаткові стилі для галереї */
+        .collection {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .collection-item-outer {
+            width: 30%;
+            min-width: 250px;
+            border: 2px solid #333; /* Товщина рамки навколо картки */
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .collection-item img {
+            width: 100%;
+            height: auto;
+            border: 3px solid #555; /* Рамка безпосередньо навколо фото */
+        }
+        .collection-text h3 {
+            margin-top: 10px;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>  
+
+<header class="header">
+    <div class="container">
+        <h1>Виставка: Сім чудес України</h1>
+        <h2><small>Виконала: Учениця 11 класу Богуцька Анастасія</small></h2>
+    </div>
+</header>  
+
+<nav class="navi">
+    <div class="container">
+        <ul>
+            <nav class="navi">
+  <div class="container">
+    <ul>
+      <li><a href="index.html">Головна</a></li>
+      <li><a href="page2.html">Сторінка</a></li>
+    </ul>
+  </div>
+</nav>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <div class="container">
+        <h2 class="collection-title">Фото виставка <small>кращі роботи</small></h2>
+        
+        <div class="collection">
+            <div class="collection-item-outer">
+                <div class="collection-item">
+                    <img src="001.jpg" alt="Заповідник Кам'янець" title="Кам'янець-Подільська фортеця">
+                    <div class="collection-text">
+                        <h3>Заповідник «Кам'янець»</h3>
+                        <p>Національний історико-архітектурний заповідник «Кам'янець». Розташований в Кам'янці-Подільському Хмельницької області.</p>
+                        <button>Детальніше...</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collection-item-outer">
+                <div class="collection-item">
+                    <img src="002.jpg" alt="ОПИС ФОТО 2" title="НАЗВА ОБ'ЄКТА 2">
+                    <div class="collection-text">
+                        <h3>Києво-Печерська лавра</h3>
+                        <p>Ки́єво-Пече́рська ла́вра — київський православний монастирський комплекс. Один із найбільших християнських центрів України, визначна пам'ятка історії та архітектури. Києво-Печерська лавра належить державі, а релігійні організації користуються нею на правах оренди.</p>
+                        <button>Детальніше...</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collection-item-outer">
+                <div class="collection-item">
+                    <img src="003.jpg" alt="ОПИС ФОТО 3" title="НАЗВА ОБ'ЄКТА 3">
+                    <div class="collection-text">
+                        <h3>Національний дендрологічний парк «Софіївка»</h3>
+                        <p>Націона́льний дендрологі́чний парк «Софі́ївка», або Софіївський парк, — шедевр світового садово-паркового мистецтва кінця XVIII — початку XIX століть. Щорічно його відвідують близько 150 тисяч людей (граничнодопустима, науково обґрунтована норма відвідування — 500 тисяч на рік). Площа — 179,2 га.</p>
+                        <button>Детальніше...</button>
+                    </div>
+                </div>
+            </div>
+        </div> </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>Створено в 2021 році (Оновлено 2026)</p>
+    </div>
+</footer>
+
+</body>
+</html>
